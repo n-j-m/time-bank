@@ -1,0 +1,48 @@
+{
+  "name": "time-bank",
+  "description": "time bank app",
+  "author": "n-j-m <nick65@gmail.com>",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "readme": "./node_modules/.bin/node-readme"
+  },
+  "dependencies": {
+    "vue": "^1.0.0",
+    "babel-runtime": "^5.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "bootstrap": "^3.3.6",
+    "cross-env": "^1.0.6",
+    "css-loader": "^0.23.1",
+    "es6-promise": "^3.1.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "firebase": "^2.4.2",
+    "font-awesome": "^4.6.1",
+    "html-webpack-plugin": "^2.15.0",
+    "jquery": "^2.2.3",
+    "json-loader": "^0.5.4",
+    "node-readme": "^0.1.9",
+    "postcss-loader": "^0.8.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.2.1",
+    "vue-router": "^0.7.13",
+    "vue-style-loader": "^1.0.0",
+    "vuefire": "^1.0.1",
+    "vuex": "^0.6.2",
+    "vuex-router-sync": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
+}
